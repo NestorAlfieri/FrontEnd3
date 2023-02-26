@@ -1,0 +1,20 @@
+.listDiv {
+   margin-top: 2vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+display: flex;
+align-items: flex-start;
+
+
+}
+
+.listDiv h3{
+   font-size: 35px;  
+   font-family: monospace;
+   color: white;
+   text-align: center;
+   line-height: 55px;
+   display: flex;
+   margin-left: 5vw;
+   
+}

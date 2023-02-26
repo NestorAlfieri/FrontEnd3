@@ -1,0 +1,13 @@
+.App{
+  text-align: center;
+  color: #433178;
+  font-size: 32px;  
+};
+
+.App .welcome-logo{
+  width: 100%;
+}
+
+.welcome-logo img{
+  width: 100%;
+}
