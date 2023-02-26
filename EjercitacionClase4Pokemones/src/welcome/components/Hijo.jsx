@@ -16,7 +16,8 @@ const Hijo = ({  type, id, nombre, avatar, powerLevel, agressive }) => {
       <div className="cardDiv">
         <h4 className="nombre">{nombre}</h4>
         <img className="img" src={avatar}></img>
-        <table class="powerChart">
+        <table className="powerChart">
+          <thead>
           <tr>
             <th className="cardText">Power Level :{powerLevel}</th>
           </tr>
@@ -28,6 +29,7 @@ const Hijo = ({  type, id, nombre, avatar, powerLevel, agressive }) => {
             </div>
           </td>
           </tr>
+          </thead>
         </table>        
         <p className="cardText">{isAgressive()}</p>
       </div>

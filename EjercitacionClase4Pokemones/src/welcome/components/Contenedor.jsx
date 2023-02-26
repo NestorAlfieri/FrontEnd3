@@ -6,18 +6,10 @@ import "../components/contenedor.css";
 const Contenedor = ({ type }) => {
   const [visible, setVisible] = useState(false);
 
-  const changeDisplay = (type) => {
-    const div = document.getElementById("air");
-    console.log(div);
-    if (!div.classList.contains("onDisplay")) {
-      div.classList.add("onDisplay");
-      setVisible(true);
-    } else {
-      div.classList.remove("onDisplay");
-      setVisible(false);
-    }
-  };
-
+  const changeDisplay = (type) => {    
+      setVisible(!visible);
+   
+  }
   return (
     <div className="contenedorDiv" id={type}>
       <div className="buttonsContainer">
