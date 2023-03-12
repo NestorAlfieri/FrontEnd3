@@ -4,14 +4,14 @@ import Hijo from "./Hijo";
 import pokemonData from "../../assets/static/pokemons.json";
  import "../components/list.css"
 
- export const List=({type})=>{
-
-   
+ export const List=({type})=>{   
   const data = pokemonData[type]; 
+  
 
   return(
 <div className="listDiv" >
-    <h3>{type} pokemons</h3>
+
+    <h3>{type.toUpperCase()} <br/>POKEMONS</h3>
     <div className="cardsDiv">
       {data.map((pokemon) => (
         <Hijo

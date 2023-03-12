@@ -1,6 +1,6 @@
 .contenedorDiv {
     width: 100vw;
-    display: flex;
+    display: flex;   
     position: absolute;
     
 }
@@ -56,12 +56,10 @@
 }
 
 
-.listContainer{
-    margin-top: 13vh;
-    min-height: 87vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.listContainer{   
+    margin-top: 15vh;
+    min-height: 85vh;
+  
 
 
 }

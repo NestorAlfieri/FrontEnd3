@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.usuarioDiv{
+    margin-top:20vh;
+    background: rgb(183,185,180);
+background: radial-gradient(circle, rgba(183,185,180,1) 0%, rgba(129,129,129,1) 100%);
+    /*rgba(89, 90, 89, 0.699);*/
+    height: 30vh;
+    width: 350px;    
+    padding: 15px;
+    border-radius: 10px;
+    border: 5px solid rgb(157, 75, 233); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 5px 0px rgba(214, 208, 208, 0.78);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(214, 208, 208, 0.78);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(214, 208, 208, 0.78);    
+}
+
+h3{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+.cardText{
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+#returnButton {
+    font-size: 14px;
+    font-family: monospace;
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+    background-color:rgb(192, 244, 115);
+}
+#returnButton:hover {
+    cursor: pointer;
+    background-color:rgb(170, 241, 39);;
+    border: 1px solid white;
+}

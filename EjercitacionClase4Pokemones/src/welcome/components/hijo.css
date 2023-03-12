@@ -1,7 +1,8 @@
 .hijo {
-   margin-left: 5vw;
-   margin-right: 5vw;
-   margin-bottom: 5vh;
+   margin-top: 5vh;
+   margin-left: 4vw;
+   
+   
    font-family: monospace;
 }
 
@@ -11,17 +12,18 @@
    border-style: solid;
    border-color: azure;
    border-radius: 15px;
-   min-width: 350px;
+   min-width: 250px;
    height: 350px;
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
+   justify-content: space-evenly;   
    color: white;
 }
 
 .hijo img {
    max-height: 150px;
+   max-width: 200px;
 }
 
 .nombre {
@@ -29,9 +31,10 @@
    font-weight: bolder;
 }
 
-.listDiv .cardText {
+ .cardText {
    font-size: 20px;
-   line-height: 5px;
+ 
+  
 }
 
 .cardsDiv {
@@ -41,12 +44,28 @@
 }
 
 .powerChart{
-   margin-top: 15px;
+   margin-top: 15px;   
 }
-.cellChart{
-   width: 100%;  
+
+.barContainer{
+   width: 50%;
+   height: 1.15em;
+   border-style: solid;
+   border-radius: 6px;
+   border-width: 2px;
+   border-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;  
+   align-items: flex-start;
+   z-index: 2;
+   
 }
-.barChart{
-   margin-top: 15px;
-   color: lime
+
+.barChart{       
+   color: rgb(95, 228, 95);
+   background-color: rgb(95, 228, 95);
+   border-radius: 5px;
+   
+       
 }

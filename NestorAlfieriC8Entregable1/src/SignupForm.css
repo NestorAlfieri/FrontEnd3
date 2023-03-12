@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: monospace;
+    color: white
+}
+
+.formDiv {
+    margin-top: 20vh;
+    background: rgb(183, 185, 180);
+    background: radial-gradient(circle, rgba(183, 185, 180, 1) 0%, rgba(129, 129, 129, 1) 100%);
+    /*background-color: rgba(89, 90, 89, 0.699);*/
+    width: 350px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 5px solid greenyellow;
+    box-shadow: 10px 10px 5px 0px rgba(214, 208, 208, 0.78);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(214, 208, 208, 0.78);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(214, 208, 208, 0.78);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.inputDiv {
+   display:flex;
+   
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.inputDiv label {
+    height: 20px;
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.inputDiv input {
+    height: 20px;
+    width: 50%;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    
+    
+}
+
+.buttonsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#dateInput{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buttonsDiv button {
+    font-size: 14px;
+
+    font-family: monospace;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px 8px;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+    background-color: rgb(189, 247, 103);
+    border: 1px solid white;
+}
+
+#resetButton:hover {
+    cursor: pointer;
+    background-color: rgb(247, 146, 135);
+    border: 1px solid white;
+}
+
+.errorDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#errorP {
+    position: relative;
+    bottom: 9px;
+    right: 4px;
+    color: rgb(203, 52, 52);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}

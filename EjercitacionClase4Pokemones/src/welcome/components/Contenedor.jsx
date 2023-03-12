@@ -6,17 +6,15 @@ import "../components/contenedor.css";
 const Contenedor = ({ type }) => {
   const [visible, setVisible] = useState(false);
 
-  const changeDisplay = (type) => {    
-      setVisible(!visible);
-   
-  }
+  const changeDisplay = () => {
+    setVisible(!visible);
+  };
   return (
     <div className="contenedorDiv" id={type}>
       <div className="buttonsContainer">
-      <button onClick={changeDisplay}>{type}</button>
+        <button onClick={changeDisplay}>{type}</button>
       </div>
-      <div className="listContainer">
-        {visible && <List type={type} />}</div>
+      <div className="listContainer">{visible && <List type={type} />}</div>
     </div>
   );
 };
